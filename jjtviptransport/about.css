@@ -1,0 +1,53 @@
+/* Custom CSS */
+
+/* Style untuk judul pada header */
+.container-fluid h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* Warna teks putih */
+}
+
+/* Style untuk paragraf pada header */
+.container-fluid p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Style untuk latar belakang header */
+.container-fluid {
+    background-color: #BDBDBD;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Atur padding untuk memberikan ruang agar konten tetap terlihat */
+}
+
+/* Style untuk kolom-kolom di bagian content */
+.container .row {
+    margin-top: 30px;
+}
+
+.col-sm-4 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.col-sm-4 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.col-sm-4 p {
+    font-size: 1rem;
+}
+
+/* Responsif: Margin tambahan untuk kolom pada tampilan kecil */
+@media (max-width: 576px) {
+    .col-sm-4 {
+        margin-bottom: 30px;
+    }
+}
